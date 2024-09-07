@@ -1,0 +1,77 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.left{
+    padding: 20px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 80px;
+
+}
+
+.left h1 {
+    font-size: 45px;
+    
+}
+.name{
+    line-height: 10px;
+}
+.pages{
+    line-height: 60px;
+}
+.pages a{
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+.pages a:hover{
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.right {
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.right h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.right p {
+    font-size: 20px;
+}
+
+.right img {
+    width: 500px;
+    border-radius: 8px;
+}
+.rfirstcontainer, .rsecondcontainer{
+    display: flex;
+}
+.rfirstcontainerleft{
+    margin-right: 15px;
+}
+.rsecondcontainerleft{
+    margin-right: 15px;
+    width: 500px;
+}
+li{
+    font-size: 20px;
+}
+table,td,th{
+    font-size: 20px;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 2px;
+}
